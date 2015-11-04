@@ -1,0 +1,20 @@
+include <stdio.h>
+int main ()
+{
+	int number;
+	
+        printf("enter a number :  ");
+	 scanf ("%d",&number);
+	 if(number >=0 && number <=9 ){
+	 	printf("SINGLE DIGIT\n");
+	 } else if (number <0 ) {
+	 	printf ("NO NEGATIVE VALUES ARE ACCEPTED\n");
+	 } else {
+	 	
+	 	printf ("MORE THAN ONE DIGIT\n");
+	 }
+	 
+	 
+	 printf ("the number is : %d ",number);
+	 return 0;
+}
