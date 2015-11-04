@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void add(int , int);
+
+int main (){
+	int num1 = 100;
+	int num2 = 200;
+	add ( num1 ,num2);
+	 }
+void add (int a,int b){
+	int result= a+b ;
+	printf ("the resutl of %d and %d is %d ",a,b,result);
+}
