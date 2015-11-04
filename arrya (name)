@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	char name[]={'c','h','i','r','a','g'};
+	char sirname []="solanki";
+	
+  printf ("%s",name );
+  printf ("%s",sirname);
+  return 0;
+  
+}
