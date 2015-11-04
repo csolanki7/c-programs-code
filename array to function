@@ -1,0 +1,10 @@
+#include <stdio.h>
+void display (int marks){
+printf (" the mark recieved is %d",marks);
+}
+int main (){
+
+int marks [3]={55,77,88,};
+display (marks[0]);
+return 0;
+}
