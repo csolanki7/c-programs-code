@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main  ()
+{
+	int count;
+	
+	printf (" the odd number is :\n ");
+	for (count=0;count<=25;count++){
+		printf ("%d \n ",count);
+		
+	}
+	return 0;
+}
