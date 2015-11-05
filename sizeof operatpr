@@ -1,0 +1,14 @@
+#include <stdio.h>
+size_t getsize(float *ptr);
+int main () 
+{
+	float array [20];
+	printf("the number of  byets in the array is %d "
+	  "\n the number of byets returned by getsize is %d \n", 
+	     sizeof(array),getsize(array));
+	      return 0;
+	       
+} size_t getsize(float *ptr )
+{
+	return sizeof (ptr);
+	
