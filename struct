@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+struct record {
+ char *lastname;
+  char *firstname ;
+  int *id ;
+  char *addres;
+  };
+  typedef struct record student;
+   int main ()
+   {
+       student st;
+
+       st.lastname ="chirag";
+       st.firstname ="solanki";
+       st.id= 1234;
+       st.addres= "fremont , ca " ;
+
+       printf("first name : %s \n ", st.firstname);
+       printf("last name : %s \n", st.lastname);
+       printf ("ID: %d",st.id);
+       printf("adress:%s", st.addres);
+       return 0;
+   }
