@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int result;
+
+int flipcoin();
+
+int main(void){
+    int heads = 0;
+    int tails = 0;
+    int i;
+
+
+    for(i = 1; i <= 100; i++){
+        result = flip();
+
+        if(result == 1){
+            printf("Heads\n");
+            heads++;
+        } else {
+            printf("Tails\n");
+            tails++;
+        }
+    }
+
+    printf("Heads: %d\tTails: %d\n", heads, tails);
+    return 0;
+}
+
+int flipcoin() {
+    result = 1 + rand() % 2;
+
+    return result == 1;
+}
+
